@@ -1,9 +1,9 @@
-import io.kotest.core.spec.style.StringSpec
+import io.kotest.core.spec.style.FunSpec
 import io.kotest.matchers.shouldBe
 
-class ExampleTest : StringSpec(
+class ExampleTest : FunSpec(
     {
-        "hello" {
+        test("") {
             1 shouldBe 1
         }
     }
